@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorial js</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="googleMapContainer">
+					
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8 offset-md-2">
+				<div id="tableWrapper">
+					<div id="tableScroll">
+						<table>
+							<thead>
+								<tr>
+									<th colspan="2"> Total carbon dioxide emissions from all sectors, all fuels. </th>	
+								</tr>
+								<tr>
+									<th> State </th>
+									<th> Emission (million metric tons CO2) </th>
+								</tr>
+							</thead>
+								<tbody id="mainTableBody">
+									
+								</tbody>
+							
+						</table>
+					</div>
+				</div>
+				<button id="updateTable"> Actualizar tabla </button>
+				<button id="drawAllCirclesButton"> Dibujar cosas locas </button>
+				<select>
+					<option value='texas'>Texas</option>
+					<option value='texas'>Texas</option>
+					<option value='texas'>Texas</option>
+					<option value='texas'>Texas</option>
+					<option value='texas'>Texas</option>
+				</select>
+			</div>
+		</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+		<!-- Google maps -->
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwWYDB9v1MopiTtPpUXMDaCwAlOQbtn3c&callback=onGoogleMapResponse">
+    </script>
+</body>
+</html>
